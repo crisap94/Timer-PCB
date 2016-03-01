@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 137.424999 64.924999 247.575001 127.575001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 295)
     (zones 0)
     (modules 36)
@@ -1359,6 +1359,9 @@
     )
   )
 
+  (gr_text "+   -" (at 241.3 66.294) (layer F.SilkS)
+    (effects (font (size 1.8 1.8) (thickness 0.4)))
+  )
   (gr_line (start 247.5 65) (end 137.5 65) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 247.5 127.5) (end 247.5 65) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 137.5 127.5) (end 247.5 127.5) (layer Edge.Cuts) (width 0.15))
